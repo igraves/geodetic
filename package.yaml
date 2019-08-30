@@ -1,0 +1,52 @@
+name:                geodetic
+version:             0.1.3
+license:             BSD3
+license-file:        etc/LICENCE 
+author:              "Tony Morris <ʇǝu˙sıɹɹoɯʇ@ןןǝʞsɐɥ>"
+maintainer:          "Tony Morris"
+copyright:           "Copyright (C) 2013,2014 Tony Morris"
+synopsis:            "Geodetic calculations"
+category:            "Development"
+build-type:          Custom
+homepage:            "https://github.com/NICTA/geodetic"
+bug-reports:         "https://github.com/NICTA/geodetic/issues"
+
+extra-source-files:
+- changelog
+
+description:
+    <<http://i.imgur.com/Ns5hntl.jpg>>
+    .
+    Geodetic calculations including Vincenty and Great Circle using a Latitude and Longitude pair
+
+
+
+#flag: "small_base"
+#description: "Choose the new, split-up base package"
+
+
+
+
+library:
+    source-dirs: src
+    dependencies:
+    - base >= 3 && < 5
+    - lens # >= 4.0
+    - coordinate ==0.1.2 #>= 0.0.18 && < 0.0.20
+    - radian #>= 0.0.4
+    - optional #>= 0.0.1
+    default-extensions:
+    - "NoImplicitPrelude"
+    ghc-options:
+    - "-Wall"
+    exposed-modules:
+    - Data.Geo.Geodetic
+    - Data.Geo.Geodetic.Azimuth
+    - Data.Geo.Geodetic.Bearing
+    - Data.Geo.Geodetic.Curve
+    - Data.Geo.Geodetic.Ellipsoid
+    - Data.Geo.Geodetic.GreatCircle
+    - Data.Geo.Geodetic.Haversine
+    - Data.Geo.Geodetic.Sphere
+    - Data.Geo.Geodetic.Vincenty
+
