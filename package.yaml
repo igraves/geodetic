@@ -7,7 +7,7 @@ maintainer:          "Tony Morris"
 copyright:           "Copyright (C) 2013,2014 Tony Morris"
 synopsis:            "Geodetic calculations"
 category:            "Development"
-build-type:          Custom
+build-type:          Simple 
 homepage:            "https://github.com/NICTA/geodetic"
 bug-reports:         "https://github.com/NICTA/geodetic/issues"
 
