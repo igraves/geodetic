@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 82eea82bf2e3e532135f157cfa2fe8130ab3e4579d692410944ed7f08436ee4f
+-- hash: b22757fa95ea2dc9c871ede5e63dbace9c5756c9ffdaa8d6fbffb40ad81bdc06
 
 name:           geodetic
 version:        0.1.3
@@ -18,7 +18,7 @@ maintainer:     Tony Morris
 copyright:      Copyright (C) 2013,2014 Tony Morris
 license:        BSD3
 license-file:   etc/LICENCE
-build-type:     Custom
+build-type:     Simple
 extra-source-files:
     changelog
 
@@ -41,7 +41,7 @@ library
   ghc-options: -Wall
   build-depends:
       base >=3 && <5
-    , coordinate ==0.1.2
+    , coordinate >=0.3.0
     , lens
     , optional
     , radian

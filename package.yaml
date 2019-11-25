@@ -32,7 +32,7 @@ library:
     dependencies:
     - base >= 3 && < 5
     - lens # >= 4.0
-    - coordinate ==0.1.2 #>= 0.0.18 && < 0.0.20
+    - coordinate >=0.3.0 #>= 0.0.18 && < 0.0.20
     - radian #>= 0.0.4
     - optional #>= 0.0.1
     default-extensions:

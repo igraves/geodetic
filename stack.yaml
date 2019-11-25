@@ -49,7 +49,7 @@ extra-deps:
 - git: https://github.com/igraves/optional.git
   commit: 84c88e583c7aab445feff0234a34f710c8599920 
 - git: https://github.com/igraves/coordinate.git
-  commit: a7e139ad3d00bd2d9a01bcde08aa28de53f35393 
+  commit: be7cd7099be89b0f3c45de8ae52de771835f1b97 
 - git: https://github.com/igraves/radian.git
   commit: 6a5db78b87ca3718a5b014d871baf0a77d536a69
 # Override default flag values for local packages and extra-deps
